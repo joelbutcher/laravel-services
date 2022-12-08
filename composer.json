@@ -1,0 +1,38 @@
+{
+    "name": "joelbutcher/laravel-services",
+    "description": "A simple, extensible implementation for crafting easy-to-use service classes in Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JoelButcher\\LaravelServices\\": "src/",
+            "JoelButcher\\LaravelServices\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joel Butcher",
+            "email": "joel@joelbutcher.co.uk"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^8.0|^9.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.2",
+        "nunomaduro/larastan": "^2.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JoelButcher\\Socialstream\\SocialstreamServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "stable"
+}

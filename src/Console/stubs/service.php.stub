@@ -1,0 +1,16 @@
+<?php
+
+namespace {{ namespace }};
+
+use JoelButcher\LaravelServices\Service;
+
+class {{ class }} extends Service
+{
+    /** {@inheritDoc} */
+    public static function identifier(): string
+    {
+        return '{{ identifier }}';
+    }
+
+    // ...
+}
