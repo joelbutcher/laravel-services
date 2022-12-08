@@ -51,3 +51,9 @@ If not provided, the package will attempt to derive the identifier from the prov
 | Foo       | foo        |
 | FooBar    | foo_bar    |
 | MyService | my_service |
+
+## Contributing
+Thank you for considering contributing! Please adhere to GitHub contribution guidelines and provide as much context / information as possible with your pull request.
+
+## License
+This package is open-sourced software licensed under the MIT license.
